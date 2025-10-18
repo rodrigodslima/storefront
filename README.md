@@ -1,95 +1,79 @@
-<!--START_SECTION:header-->
-<div align="center">
-  <p align="center">
-    <img 
-      alt="DIO Education" 
-      src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/logo.webp" 
-      width="100px" 
-    />
-    <h1>Storefront</h1>
-  </p>
-</div>
-<!--END_SECTION:header-->
+🏬 Storefront – Aplicação de E-commerce
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
-  <a href="NIVEL"><img  src="https://img.shields.io/static/v1?label=Nivel&message=Basico&color=E94D5F&labelColor=202024" alt="Nivel"></a>
+Projeto de exemplo desenvolvido para demonstrar conceitos modernos de frontend web, componentização, integração com APIs e boas práticas de desenvolvimento.
 
-</p>
+O projeto é uma loja virtual fictícia, criada com tecnologias do ecossistema JavaScript, que simula a navegação e exibição de produtos em um ambiente responsivo e interativo.
 
-<!--  -->
-<table align="center">
-<thead>
-  <tr>
-    <td>
-        <p align="center">Expert</p>
-        <a href="https://github.com/juniorjrjl">
-        <img src="https://avatars.githubusercontent.com/u/6619093?u=0afe982a654793dfc9e886acab8b417aa632f511&v=4" alt="@felipeAguiarCode"><br>
-      </a>
-    </td>
-    <td colspan="3">
-    <p>🎉 10y+ em desenvolvimento Backend (Principalmente com Java mas já atuei com Scala, Python, Kotlin).
-      <br/>
-     🌟 Desenvolvedor backend - CAJU
-      <br/>
-    👨‍💻 Foco em back-ends
-    </p>
-      <a 
-      href="https://www.linkedin.com/in/josé-luiz-abreu-cardoso-junior-18483872/" 
-      align="center">
-           <img 
-            align="center" 
-            alt="Material de Apoio" 
-            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-            >
-        </a>
-        <a href="https://www.instagram.com/junior.jose.lz/" target="_blank">
-            <img 
-              align="center" 
-              alt="Instagram" 
-              src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-            >
-        </a>
-    </td>
-  </tr>
-</thead>
-</table>
-<!--  -->
+🚀 Tecnologias Utilizadas
 
-<br/>
-<br/>
+React – construção de componentes e interface dinâmica
 
-## 💻 Sobre o Projeto
+TypeScript – tipagem estática e maior segurança no código
 
-Vamos criar um sistema de e-commerce para estudar sobre a comunicação de microsserviços 
+Vite – build e servidor de desenvolvimento ultrarrápido
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
+Styled Components / CSS Modules – estilização modular e escalável
 
-Antes de ingressar neste conteúdo, é necessário possuir conhecimento prévio nas seguintes áreas:
+Axios / Fetch API – consumo de dados externos
 
-- Java | Intermediário
-- Orientação a Objeto | Avançado
-- Spring | Intermediário
-- REST API | Intermediário
+Node.js / npm – ambiente de execução e gerenciamento de pacotes
 
-## 🛠️ Habilidades e Sub-habilidades que vamos aprender neste conteúdo
+⚙️ Como Executar o Projeto Localmente
 
-- Comunicação síncrona
-- Comunicação assíncrona
+Clone o repositório:
 
-## 🎯 Objetivos e Resultados Esperados
+git clone https://github.com/digitalinnovationone/storefront.git
 
-Após a conclusão do curso/projeto, os estudantes estarão aptos a:
 
-- Entender as diferenças de comunicação sincrona e assincrona na criação de microsserviços.
+Entre na pasta do projeto:
 
-<!--START_SECTION:footer-->
+cd storefront
 
-<br />
-<br />
 
-<p align="center">
-  <a href="https://www.dio.me/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/digitalinnovationone/template-github-trilha/main/.github/assets/footer.png" alt="banner"/>
-  </a>
-</p>
+Instale as dependências:
+
+npm install
+
+
+ou
+
+yarn
+
+
+Inicie o servidor de desenvolvimento:
+
+npm run dev
+
+
+O app ficará disponível em:
+👉 http://localhost:5173
+
+🧠 Conceitos Trabalhados
+
+Estrutura de componentes React
+
+Comunicação entre componentes
+
+Requisições HTTP e gerenciamento de estado
+
+Roteamento de páginas
+
+Responsividade e estilização moderna
+
+🤝 Contribuindo
+
+Quer contribuir com melhorias?
+
+Faça um fork do projeto
+
+Crie uma branch para sua modificação
+
+git checkout -b minha-alteracao
+
+
+Faça o commit das mudanças
+
+git commit -m "Melhoria na interface"
+
+
+Envie um pull request ✨
